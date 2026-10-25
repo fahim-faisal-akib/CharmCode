@@ -1,7 +1,7 @@
 {
-  "name": "opencode-backend",
+  "name": "charmcode-backend",
   "version": "1.0.0",
-  "description": "OpenCode AI coding agent backend",
+  "description": "CharmCode AI coding agent backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

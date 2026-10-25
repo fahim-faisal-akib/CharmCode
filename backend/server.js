@@ -13,10 +13,10 @@ const PORT = process.env.PORT || 3001;
 const CONFIG_PATH = path.join(__dirname, "config.json");
 
 const DEFAULT_CONFIG = {
-  openrouterKeys:   ["","","","",""],
+  openrouterKeys:   ["", "", "", "", ""],
   openrouterActiveIndex: 0,
   openrouterModels: [],
-  groqKeys:         ["","","","",""],
+  groqKeys:         ["", "", "", "", ""],
   groqActiveIndex:  0,
   groqModels:       [],
   activeProvider:   "openrouter",
@@ -57,7 +57,7 @@ app.use("/api/files",    filesRouter);
 app.get("/api/health",   (_, res) => res.json({ status:"ok", version:"3.0.0" }));
 
 app.listen(PORT, () => {
-  console.log(`\n  OpenCode v3 backend → http://localhost:${PORT}`);
+  console.log(`\n  CharmCode v3 backend → http://localhost:${PORT}`);
   console.log(`  Press Ctrl+C to stop.\n`);
 }).on("error", err => {
   if (err.code === "EADDRINUSE") console.error(`\n  Port ${PORT} already in use.\n`);
