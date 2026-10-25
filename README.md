@@ -1,6 +1,6 @@
-# OpenCode — AI Coding Agent
+# CharmCode — AI Coding Agent
 
-An open-source, self-hosted AI coding agent with a web dashboard. Works like Claude Code, but lets you use **any model available on OpenRouter** — GPT-4o, Claude, Llama, Mistral, Gemini, DeepSeek, and more.
+An open-source, self-hosted AI coding agent with a web dashboard. Works like Claude Code, but lets you use **any model available on OpenRouter** — GPT-4o, Claude, Llama, Mistral, Gemini, DeepSeek.
 
 ## Features
 
@@ -48,7 +48,7 @@ Open **http://localhost:3000** in your browser.
 1. **Add API Keys** → Go to Settings → paste your OpenRouter API key(s) into slot #1 (required). Slots 2–5 are backup keys.
 2. **Add Models** → In Settings → Models, enter a model ID like `openai/gpt-4o` and click Add. Find all available models at [openrouter.ai/models](https://openrouter.ai/models).
 3. **Set Project Directory** → Enter the absolute path to your project folder (e.g. `/home/user/my-app`). The agent will create files here.
-4. **Start coding** → Go to the Chat tab and ask OpenCode to build something.
+4. **Start coding** → Go to the Chat tab and ask CharmCode to build something.
 
 ## How API Key Fallback Works
 
@@ -71,7 +71,7 @@ Add TypeScript types to my existing JS file
 ## Project Structure
 
 ```
-opencode/
+charmcode/
 ├── backend/
 │   ├── server.js          # Express server entry
 │   ├── config.json        # Your settings (auto-created, gitignored)

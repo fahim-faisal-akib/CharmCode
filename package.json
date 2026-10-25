@@ -1,5 +1,5 @@
 {
-  "name": "opencode",
+  "name": "charmcode",
   "version": "1.0.0",
   "description": "AI Coding Agent with OpenRouter support",
   "scripts": {
